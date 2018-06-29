@@ -10,7 +10,7 @@ else false
 
 
 def not_safe?(speed)
-unsafe ? true : false
+unsafe? true : false
   binding.pry
 end
 end
